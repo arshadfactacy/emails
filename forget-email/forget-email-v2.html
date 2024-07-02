@@ -1,0 +1,215 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #f0f1f2;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            /* background-color: #f0f1f2; */
+            background-color: #fff;
+            padding-bottom: 60px;
+        }
+
+        .main {
+            background-color: #fff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #171a1b;
+        }
+
+        .two-columns {
+            text-align: center;
+        }
+
+        .two-columns .column {
+            /* width: 100%; */
+            /* max-width: 300px; */
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <table class="main" style="width: 100%;">
+            <!-- LOGO SECTION -->
+            <tr>
+                <td style=" padding: 14px 0 14px;">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td class="two-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <img src="https://factacymain.blob.core.windows.net/asset/Factacy-Blue-Logo.jpg" alt="Factacy-log"
+                                                style="height: 36px; margin: 0 auto;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- BANNER IMAGE -->
+            <tr>
+                <td style=" text-align: center;">
+                    <!-- <a href="" style="text-align: center; margin: 0 auto;"><img src="./assets/lock.svg" alt=""></a> -->
+                    <table class="column" style=" display: inline-block; vertical-align: top; text-align: center;">
+                        <tr>
+                            <td>
+                                <img src="https://factacymain.blob.core.windows.net/asset/lock.jpg" style=" margin: 0 auto; width: 200px ;" alt="">
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <!-- HEADING -->
+            <tr>
+                <td style=" text-align: center;">
+                    <!-- <a href="" style="text-align: center; margin: 0 auto;"><img src="./assets/lock.svg" alt=""></a> -->
+                    <table class="column" style=" display: inline-block; vertical-align: top; text-align: center;">
+                        <tr>
+                            <td>
+                                <h1 class="heading">Forgot Your Password ?</h1>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <!-- PARAGRAPH TEXT -->
+            <tr>
+                <td style="padding: 18px;">
+                    <!-- <a href="" style="text-align: center; margin: 0 auto;"><img src="./assets/lock.svg" alt=""></a> -->
+                    <p>Hi <span style="font-weight: 600;">${name}</span>,</p>
+                    <p style="margin-top: 0; font-size: 16px;">We've received a request to reset your account password.
+                        You
+                        can now
+                        do so by clicking on the button below.</p>
+
+                </td>
+            </tr>
+            <!-- BUTTON -->
+            <tr>
+                <td style="text-align: center;">
+                    <table class="column" style=" display: inline-block; vertical-align: top; text-align: center;">
+                        <tr>
+                            <td>
+                                <p>
+                                    <a target="_blank"
+                                        style="padding: 12px 24px; background: #1476BF; border-radius: 10px; text-decoration: none; color: #fff;"
+                                        href="${resetLink}">
+                                        Click Here
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <!-- THANKS  -->
+            <tr>
+                <td>
+                    <table class="column" style=" display: inline-block; vertical-align: top;">
+                        <tr>
+                            <td>
+                                <div class="thanks" style="padding: 18px;">
+                                    <p style=" margin: 0; font-size: 14px;">Thanks,</p>
+                                    <h5 style=" margin: 0; font-size: 18px;">Team Factacy</h5>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <!-- HORIZONTAL BAR -->
+            <tr>
+                <td height="2px" style="background-color: gray;"></td>
+            </tr>
+            <!-- FOOTER SECTION -->
+            <tr>
+                <td style="text-align: center; padding: 18px; padding-top: 24px;">
+                    <table class="column" style=" display: inline-block; vertical-align: top; text-align: center;">
+                        <tr>
+                            <td>
+                                <p class=" paragraph-one" style=" color: gray;">
+                                    If you didn't request this change or if you'd no longer like to create a new
+                                    password, you can safely
+                                    ignore
+                                    this email.
+                                </p>
+
+                                <p class=" paragraph-two" style=" color: white; text-align: center; color: gray;">Have a
+                                    question? You
+                                    can reach out to us via
+                                    <a href="mailto:connect@factacy.ai"
+                                        style=" color: #1476BF; text-align: center; text-decoration: none; text-decoration: underline;">connect@factacy.ai
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <!-- SOCIAL ICONS -->
+            <tr>
+                <td style="text-align: center;">
+                    <table class="column" style=" display: inline-block; vertical-align: top; text-align: center;">
+                        <tr>
+                            <td>
+                                <diV class="social-parent"
+                                    style="display: flex; align-items: center; justify-content: center; gap: 6px; padding: 12px 0;">
+                                    <a href="https://twitter.com/FactacyAI/" target="_blank">
+                                        <img style="height: 20px;" class=" social-icon" src="https://factacymain.blob.core.windows.net/asset/x.jpg" alt="X">
+                                    </a>
+                                    <a href="https://www.facebook.com/factacydotAI/" target="_blank">
+                                        <img style="height: 20px;" class=" social-icon" src="https://factacymain.blob.core.windows.net/asset/facebook.jpg"
+                                            alt="facebook">
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/factacy/" target="_blank">
+                                        <img style="height: 20px;" class=" social-icon" src="https://factacymain.blob.core.windows.net/asset/linkedin.jpg"
+                                            alt=" linkedin">
+                                    </a>
+                                </diV>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

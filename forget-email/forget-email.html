@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-children-one {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background: #fff;
+    }
+
+    .container-children-one .paragraph {
+        margin-top: 0;
+    }
+
+    .logo-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo-parent img {
+        height: 32px;
+    }
+
+    .heading {
+        font-size: 24px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .lock-img {
+        height: 140px;
+    }
+
+    .name {
+        margin: 0;
+    }
+
+    .name span {
+        font-weight: 600;
+    }
+
+    .resetButton {
+        width: 100%;
+        display: flex;
+        /* justify-content: center; */
+        margin: 0 auto;
+    }
+
+    .resetButton a {
+        padding: 12px 24px;
+        background: #1476BF;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .hr-parent {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+
+    hr {
+        height: 1px;
+        background-color: gray;
+        width: 100%;
+        /* margin: 0 auto; */
+        margin-top: 40px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .thanks {
+        margin-top: -20px
+    }
+
+    .thanks h5 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .thanks p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .paragraph-one {
+        color: gray;
+    }
+
+    .paragraph-two {
+        color: white;
+        text-align: center;
+        color: gray;
+    }
+
+    .paragraph-two a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        color: gray;
+    }
+
+    .paragraph-two a:hover {
+        text-decoration: underline;
+    }
+
+    .social-parent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 12px 0;
+    }
+
+    .social-icon {
+        height: 24px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .container {
+            width: 60%;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .container {
+            width: 50%;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        .container {
+            width: 40%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="container-children-one">
+            <div class="logo-parent">
+                <img src="./assets/Factacy-Blue-Logo.png" alt="">
+            </div>
+            <img class="lock-img" src="./assets/lock.svg" alt="">
+            <h1 class="heading">Forgot Your Password ?</h1>
+            <p class="name">Hi <span>ABC</span>,</p>
+            <p class="paragraph">We've received a request to reset your account password. You can now
+                do so by clicking on the button below.</p>
+
+            <div class="resetButton">
+                <a target="_blank"
+                    href="https://factacy.ai/resetpassword?email=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiJjNGU1YTU3MS1jMGY0LTQ5OTgtYWFmMi04NzdkMWQ2MWYyZWYiLCJpYXQiOjE3MTkyMTg0NjV9.PgmiQRgFROWbFucuqCvPh6IVjqj98kkD5CREVV5kPeQ">
+                    Click Here
+                </a>
+            </div>
+            <div class="thanks">
+                <p>Thanks,</p>
+                <h5>Team Factacy</h5>
+            </div>
+            <div class="hr-parent">
+                <hr>
+            </div>
+
+        </div>
+        <div class="container-children-two">
+            <p class=" paragraph-one">
+                If you didn't request this change or if you'd no longer like to create a new password, you can safely
+                ignore
+                this email.
+            </p>
+
+            <p class=" paragraph-two">Have a question? You
+                can reach out to us via
+                <a href="mailto:connect@factacy.ai">connect@factacy.ai </a>
+            </p>
+        </div>
+        <diV class="social-parent">
+            <a href="https:/twitter.com/FactacyAI/" target="_blank"><img class=" social-icon" src="./assets/x.svg"
+                    alt="twitter"></a>
+            <a href="https://www.facebook.com/factacydotAI/" target="_blank"><img class=" social-icon"
+                    src="./assets/facebook.svg" alt="facebook"></a>
+            <a href="https://www.linkedin.com/company/factacy/" target="_blank"><img class=" social-icon"
+                    src="./assets/linkedin.svg" alt="linkedin"></a>
+        </diV>
+    </div>
+</body>
+
+</html>
